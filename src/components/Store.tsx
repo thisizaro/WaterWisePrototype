@@ -117,7 +117,7 @@ export default function Store({
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          WaterWise Store
+          Store
         </motion.h1>
         <div className="flex items-center space-x-4">
           <motion.div

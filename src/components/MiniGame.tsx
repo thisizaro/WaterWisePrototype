@@ -5,7 +5,11 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Sun, Moon, Droplet, Home, Trophy } from "lucide-react";
 
 const cityStages = [
-  { name: "Dry City", image: "/placeholder.svg?height=200&width=300" },
+  {
+    name: "Dry City",
+    image:
+      "https://as2.ftcdn.net/v2/jpg/01/92/36/87/1000_F_192368775_TM1UqWriOufCRaXeaGmZSIeVjHmuQGRj.jpg",
+  },
   { name: "Improving City", image: "/placeholder.svg?height=200&width=300" },
   { name: "Thriving City", image: "/placeholder.svg?height=200&width=300" },
 ];
@@ -165,7 +169,7 @@ export default function MiniGame() {
     >
       <header className="bg-white dark:bg-gray-800 shadow-md p-4 flex justify-between items-center">
         <h1 className="text-2xl font-bold text-blue-600 dark:text-blue-400">
-          WaterWise MiniGame
+          MiniGame
         </h1>
         <div className="flex items-center space-x-4">
           <motion.div
