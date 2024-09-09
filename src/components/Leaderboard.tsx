@@ -1,5 +1,3 @@
-"use client";
-
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Moon, Sun, Crown } from "lucide-react";
@@ -142,7 +140,7 @@ export default function Leaderboard() {
           </motion.div>
         </div>
 
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4">
+        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 max-w-[600px] m-auto">
           <h2 className="text-lg font-semibold mb-4 dark:text-gray-200">
             Leaderboard List
           </h2>
