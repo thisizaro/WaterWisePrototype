@@ -12,6 +12,7 @@ import Layout from "./Layout.tsx";
 import Leaderboard from "./components/Leaderboard.tsx";
 import MiniGame from "./components/MiniGame.tsx";
 import Store from "./components/Store.tsx";
+import { Toaster } from "./components/ui/toaster.tsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -27,5 +28,6 @@ const router = createBrowserRouter(
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <RouterProvider router={router} />
+    <Toaster />
   </StrictMode>
 );

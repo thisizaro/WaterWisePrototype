@@ -21,7 +21,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { ScrollArea } from "@/components/ui/scroll-area";
-// import { toast } from "@/components/ui/use-toast";
+import { toast } from "@/components/ui/use-toast";
 import { useToast } from "@/hooks/use-toast";
 
 const storeItems = [
